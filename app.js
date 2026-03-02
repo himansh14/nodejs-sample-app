@@ -5,6 +5,6 @@ app.get('/', (req, res) => {
   res.send('Hello from QA EKS 🚀');
 });
 
-app.listen(3000, () => {
+app.listen(4000, () => {
   console.log('Server running on port 4000');
 });
