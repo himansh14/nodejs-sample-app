@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hey Bro Your Application is deployed in K8s and managed deploying it by argocd !!! - from QA EKS 🚀');
+  res.send('My Main QA Pipeline Works - from QA EKS 🚀');
 });
 
 const PORT = process.env.PORT || 4000;
