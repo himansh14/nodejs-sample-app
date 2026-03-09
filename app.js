@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('My Main QA Pipeline Works - from QA EKS 🚀');
+  res.send('My Main QA Pipeline Works which works correctly - from QA EKS 🚀');
 });
 
 const PORT = process.env.PORT || 4000;
